@@ -39,7 +39,7 @@ public class AsyncSender {
 
     private static Properties initProps() {
         final Properties props = new Properties();
-        props.put("bootstrap.servers","192.168.88.108:9092,192.168.88.109:9092,192.168.88.110:9092");
+        props.put("bootstrap.servers","192.168.2.81:9092,192.168.2.80:9092,192.168.2.82:9092");
         props.put("key.serializer","org.apache.kafka.common.serialization.StringSerializer");
         props.put("value.serializer","org.apache.kafka.common.serialization.StringSerializer");
         return props;
