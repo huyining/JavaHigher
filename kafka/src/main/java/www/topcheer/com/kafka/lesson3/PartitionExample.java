@@ -1,4 +1,4 @@
-package www.topcheer.com.kafka;
+package www.topcheer.com.kafka.lesson3;
 
 import org.apache.kafka.clients.producer.KafkaProducer;
 import org.apache.kafka.clients.producer.ProducerRecord;
@@ -51,7 +51,7 @@ public class PartitionExample {
         properties.put("bootstrap.servers", "192.168.2.80:9092,192.168.2.81:9092,192.168.2.82:9092");
         properties.put("key.serializer", "org.apache.kafka.common.serialization.StringSerializer");
         properties.put("value.serializer", "org.apache.kafka.common.serialization.StringSerializer");
-        properties.put("partitioner.class","www.topcheer.com.kafka.MyPartitioner");
+        properties.put("partitioner.class","www.topcheer.com.kafka.lesson3.MyPartitioner");
         return properties;
     }
 

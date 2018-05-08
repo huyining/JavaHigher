@@ -1,4 +1,4 @@
-package www.topcheer.com.kafka;
+package www.topcheer.com.kafka.lesson3;
 
 /**
  * 类描述: Message

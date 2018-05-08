@@ -1,4 +1,4 @@
-package www.topcheer.com.kafka;
+package www.topcheer.com.kafka.lesson3;
 
 import org.apache.kafka.clients.producer.Partitioner;
 import org.apache.kafka.common.Cluster;
